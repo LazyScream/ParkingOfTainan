@@ -7,15 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34B740EC97B6AFEE0ACEB6E2 /* libPods-ParkingOfTaiwan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACCEB4823B8D1E4C74D69BB /* libPods-ParkingOfTaiwan.a */; };
+		D41D11C01D13BF45005F33FF /* Background 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11B11D13BF45005F33FF /* Background 1.png */; };
+		D41D11C11D13BF45005F33FF /* Background 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11B21D13BF45005F33FF /* Background 2.png */; };
+		D41D11C21D13BF45005F33FF /* Background 3.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11B31D13BF45005F33FF /* Background 3.png */; };
+		D41D11C31D13BF45005F33FF /* Background 4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11B41D13BF45005F33FF /* Background 4.png */; };
+		D41D11C41D13BF45005F33FF /* Background 5.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11B51D13BF45005F33FF /* Background 5.png */; };
+		D41D11C51D13BF45005F33FF /* Background 6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11B61D13BF45005F33FF /* Background 6.png */; };
+		D41D11C61D13BF45005F33FF /* Background 7.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11B71D13BF45005F33FF /* Background 7.png */; };
+		D41D11C71D13BF45005F33FF /* Background 8.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11B81D13BF45005F33FF /* Background 8.png */; };
+		D41D11C81D13BF45005F33FF /* Background 9.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11B91D13BF45005F33FF /* Background 9.png */; };
+		D41D11C91D13BF45005F33FF /* Background 10.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11BA1D13BF45005F33FF /* Background 10.png */; };
+		D41D11CA1D13BF45005F33FF /* Background 11.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11BB1D13BF45005F33FF /* Background 11.png */; };
+		D41D11CB1D13BF45005F33FF /* Background 12.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11BC1D13BF45005F33FF /* Background 12.png */; };
+		D41D11CC1D13BF45005F33FF /* Background 13.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11BD1D13BF45005F33FF /* Background 13.png */; };
+		D41D11CD1D13BF45005F33FF /* Background 14.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11BE1D13BF45005F33FF /* Background 14.png */; };
+		D41D11CE1D13BF45005F33FF /* Background 15.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11BF1D13BF45005F33FF /* Background 15.png */; };
+		D426A2DF1D08B00C007CF3E0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D426A2DE1D08B00C007CF3E0 /* Reachability.m */; };
+		D426A2E11D08B03F007CF3E0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D426A2E01D08B03F007CF3E0 /* SystemConfiguration.framework */; };
 		D43B34DC1CF60770006F5B6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D43B34DB1CF60770006F5B6B /* main.m */; };
 		D43B34DF1CF60770006F5B6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D43B34DE1CF60770006F5B6B /* AppDelegate.m */; };
 		D43B34E21CF60770006F5B6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D43B34E11CF60770006F5B6B /* ViewController.m */; };
 		D43B34E51CF60770006F5B6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43B34E31CF60770006F5B6B /* Main.storyboard */; };
 		D43B34E71CF60770006F5B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43B34E61CF60770006F5B6B /* Assets.xcassets */; };
 		D43B34EA1CF60770006F5B6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43B34E81CF60770006F5B6B /* LaunchScreen.storyboard */; };
+		D43B34F21CF60789006F5B6B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D43B34F11CF60789006F5B6B /* CoreLocation.framework */; };
+		D43B34F41CF6078F006F5B6B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D43B34F31CF6078F006F5B6B /* MapKit.framework */; };
+		D471AEC31D12FA65007FFB51 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D471AEC21D12FA65007FFB51 /* AdSupport.framework */; };
+		D4891A191D01C5AA00A51925 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4891A181D01C5AA00A51925 /* MyTableViewController.m */; };
+		D4891A1C1D01C6C100A51925 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4891A1B1D01C6C100A51925 /* MyTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16E6A3CB02CE8366CB3469C7 /* Pods-ParkingOfTaiwan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkingOfTaiwan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParkingOfTaiwan/Pods-ParkingOfTaiwan.debug.xcconfig"; sourceTree = "<group>"; };
+		7ACCEB4823B8D1E4C74D69BB /* libPods-ParkingOfTaiwan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParkingOfTaiwan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5CA0E2F477B96CEC852D2A0 /* Pods-ParkingOfTaiwan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkingOfTaiwan.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParkingOfTaiwan/Pods-ParkingOfTaiwan.release.xcconfig"; sourceTree = "<group>"; };
+		D41D11B11D13BF45005F33FF /* Background 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 1.png"; sourceTree = "<group>"; };
+		D41D11B21D13BF45005F33FF /* Background 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 2.png"; sourceTree = "<group>"; };
+		D41D11B31D13BF45005F33FF /* Background 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 3.png"; sourceTree = "<group>"; };
+		D41D11B41D13BF45005F33FF /* Background 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 4.png"; sourceTree = "<group>"; };
+		D41D11B51D13BF45005F33FF /* Background 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 5.png"; sourceTree = "<group>"; };
+		D41D11B61D13BF45005F33FF /* Background 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 6.png"; sourceTree = "<group>"; };
+		D41D11B71D13BF45005F33FF /* Background 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 7.png"; sourceTree = "<group>"; };
+		D41D11B81D13BF45005F33FF /* Background 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 8.png"; sourceTree = "<group>"; };
+		D41D11B91D13BF45005F33FF /* Background 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 9.png"; sourceTree = "<group>"; };
+		D41D11BA1D13BF45005F33FF /* Background 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 10.png"; sourceTree = "<group>"; };
+		D41D11BB1D13BF45005F33FF /* Background 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 11.png"; sourceTree = "<group>"; };
+		D41D11BC1D13BF45005F33FF /* Background 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 12.png"; sourceTree = "<group>"; };
+		D41D11BD1D13BF45005F33FF /* Background 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 13.png"; sourceTree = "<group>"; };
+		D41D11BE1D13BF45005F33FF /* Background 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 14.png"; sourceTree = "<group>"; };
+		D41D11BF1D13BF45005F33FF /* Background 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 15.png"; sourceTree = "<group>"; };
+		D426A2DD1D08B00C007CF3E0 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		D426A2DE1D08B00C007CF3E0 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		D426A2E01D08B03F007CF3E0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D43B34D71CF60770006F5B6B /* ParkingOfTaiwan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkingOfTaiwan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D43B34DB1CF60770006F5B6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D43B34DD1CF60770006F5B6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +70,13 @@
 		D43B34E61CF60770006F5B6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D43B34E91CF60770006F5B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D43B34EB1CF60770006F5B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43B34F11CF60789006F5B6B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D43B34F31CF6078F006F5B6B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D471AEC21D12FA65007FFB51 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		D4891A171D01C5AA00A51925 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		D4891A181D01C5AA00A51925 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		D4891A1A1D01C6C100A51925 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		D4891A1B1D01C6C100A51925 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +84,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D471AEC31D12FA65007FFB51 /* AdSupport.framework in Frameworks */,
+				D426A2E11D08B03F007CF3E0 /* SystemConfiguration.framework in Frameworks */,
+				D43B34F41CF6078F006F5B6B /* MapKit.framework in Frameworks */,
+				D43B34F21CF60789006F5B6B /* CoreLocation.framework in Frameworks */,
+				34B740EC97B6AFEE0ACEB6E2 /* libPods-ParkingOfTaiwan.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C94057BB12938FF7D50612E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D471AEC21D12FA65007FFB51 /* AdSupport.framework */,
+				7ACCEB4823B8D1E4C74D69BB /* libPods-ParkingOfTaiwan.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		471E6F83C55F303628A69043 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				16E6A3CB02CE8366CB3469C7 /* Pods-ParkingOfTaiwan.debug.xcconfig */,
+				C5CA0E2F477B96CEC852D2A0 /* Pods-ParkingOfTaiwan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D41D11CF1D13BF50005F33FF /* CellPic */ = {
+			isa = PBXGroup;
+			children = (
+				D41D11B11D13BF45005F33FF /* Background 1.png */,
+				D41D11B21D13BF45005F33FF /* Background 2.png */,
+				D41D11B31D13BF45005F33FF /* Background 3.png */,
+				D41D11B41D13BF45005F33FF /* Background 4.png */,
+				D41D11B51D13BF45005F33FF /* Background 5.png */,
+				D41D11B61D13BF45005F33FF /* Background 6.png */,
+				D41D11B71D13BF45005F33FF /* Background 7.png */,
+				D41D11B81D13BF45005F33FF /* Background 8.png */,
+				D41D11B91D13BF45005F33FF /* Background 9.png */,
+				D41D11BA1D13BF45005F33FF /* Background 10.png */,
+				D41D11BB1D13BF45005F33FF /* Background 11.png */,
+				D41D11BC1D13BF45005F33FF /* Background 12.png */,
+				D41D11BD1D13BF45005F33FF /* Background 13.png */,
+				D41D11BE1D13BF45005F33FF /* Background 14.png */,
+				D41D11BF1D13BF45005F33FF /* Background 15.png */,
+			);
+			name = CellPic;
+			sourceTree = "<group>";
+		};
 		D43B34CE1CF60770006F5B6B = {
 			isa = PBXGroup;
 			children = (
+				D426A2E01D08B03F007CF3E0 /* SystemConfiguration.framework */,
+				D43B34F31CF6078F006F5B6B /* MapKit.framework */,
+				D43B34F11CF60789006F5B6B /* CoreLocation.framework */,
 				D43B34D91CF60770006F5B6B /* ParkingOfTaiwan */,
 				D43B34D81CF60770006F5B6B /* Products */,
+				471E6F83C55F303628A69043 /* Pods */,
+				2C94057BB12938FF7D50612E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +159,13 @@
 		D43B34D91CF60770006F5B6B /* ParkingOfTaiwan */ = {
 			isa = PBXGroup;
 			children = (
-				D43B34DD1CF60770006F5B6B /* AppDelegate.h */,
-				D43B34DE1CF60770006F5B6B /* AppDelegate.m */,
-				D43B34E01CF60770006F5B6B /* ViewController.h */,
-				D43B34E11CF60770006F5B6B /* ViewController.m */,
-				D43B34E31CF60770006F5B6B /* Main.storyboard */,
-				D43B34E61CF60770006F5B6B /* Assets.xcassets */,
-				D43B34E81CF60770006F5B6B /* LaunchScreen.storyboard */,
-				D43B34EB1CF60770006F5B6B /* Info.plist */,
+				D41D11CF1D13BF50005F33FF /* CellPic */,
+				D426A2DD1D08B00C007CF3E0 /* Reachability.h */,
+				D426A2DE1D08B00C007CF3E0 /* Reachability.m */,
+				D4891A1F1D01DE5E00A51925 /* VC */,
+				D4891A201D01DE6700A51925 /* V */,
+				D4891A1D1D01DE4700A51925 /* Cell */,
+				D4891A1E1D01DE5100A51925 /* MyTBVC */,
 				D43B34DA1CF60770006F5B6B /* Supporting Files */,
 			);
 			path = ParkingOfTaiwan;
@@ -74,9 +174,49 @@
 		D43B34DA1CF60770006F5B6B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D43B34E61CF60770006F5B6B /* Assets.xcassets */,
+				D43B34EB1CF60770006F5B6B /* Info.plist */,
+				D43B34DD1CF60770006F5B6B /* AppDelegate.h */,
+				D43B34DE1CF60770006F5B6B /* AppDelegate.m */,
 				D43B34DB1CF60770006F5B6B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4891A1D1D01DE4700A51925 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D4891A1A1D01C6C100A51925 /* MyTableViewCell.h */,
+				D4891A1B1D01C6C100A51925 /* MyTableViewCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		D4891A1E1D01DE5100A51925 /* MyTBVC */ = {
+			isa = PBXGroup;
+			children = (
+				D4891A171D01C5AA00A51925 /* MyTableViewController.h */,
+				D4891A181D01C5AA00A51925 /* MyTableViewController.m */,
+			);
+			name = MyTBVC;
+			sourceTree = "<group>";
+		};
+		D4891A1F1D01DE5E00A51925 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				D43B34E01CF60770006F5B6B /* ViewController.h */,
+				D43B34E11CF60770006F5B6B /* ViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
+		D4891A201D01DE6700A51925 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				D43B34E31CF60770006F5B6B /* Main.storyboard */,
+				D43B34E81CF60770006F5B6B /* LaunchScreen.storyboard */,
+			);
+			name = V;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D43B34EE1CF60770006F5B6B /* Build configuration list for PBXNativeTarget "ParkingOfTaiwan" */;
 			buildPhases = (
+				66A053B871A535C136A3F87F /* [CP] Check Pods Manifest.lock */,
 				D43B34D31CF60770006F5B6B /* Sources */,
 				D43B34D41CF60770006F5B6B /* Frameworks */,
 				D43B34D51CF60770006F5B6B /* Resources */,
+				23FD0004DDEE40367FDD4CC0 /* [CP] Embed Pods Frameworks */,
+				63CBA9D85226A42DAB5689B0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,13 +280,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D41D11CA1D13BF45005F33FF /* Background 11.png in Resources */,
+				D41D11C81D13BF45005F33FF /* Background 9.png in Resources */,
+				D41D11C51D13BF45005F33FF /* Background 6.png in Resources */,
+				D41D11C41D13BF45005F33FF /* Background 5.png in Resources */,
+				D41D11CE1D13BF45005F33FF /* Background 15.png in Resources */,
+				D41D11CD1D13BF45005F33FF /* Background 14.png in Resources */,
+				D41D11CB1D13BF45005F33FF /* Background 12.png in Resources */,
+				D41D11C31D13BF45005F33FF /* Background 4.png in Resources */,
+				D41D11C21D13BF45005F33FF /* Background 3.png in Resources */,
+				D41D11C71D13BF45005F33FF /* Background 8.png in Resources */,
+				D41D11CC1D13BF45005F33FF /* Background 13.png in Resources */,
+				D41D11C01D13BF45005F33FF /* Background 1.png in Resources */,
 				D43B34EA1CF60770006F5B6B /* LaunchScreen.storyboard in Resources */,
+				D41D11C91D13BF45005F33FF /* Background 10.png in Resources */,
 				D43B34E71CF60770006F5B6B /* Assets.xcassets in Resources */,
+				D41D11C11D13BF45005F33FF /* Background 2.png in Resources */,
+				D41D11C61D13BF45005F33FF /* Background 7.png in Resources */,
 				D43B34E51CF60770006F5B6B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23FD0004DDEE40367FDD4CC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParkingOfTaiwan/Pods-ParkingOfTaiwan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63CBA9D85226A42DAB5689B0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParkingOfTaiwan/Pods-ParkingOfTaiwan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66A053B871A535C136A3F87F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D43B34D31CF60770006F5B6B /* Sources */ = {
@@ -153,6 +359,9 @@
 				D43B34E21CF60770006F5B6B /* ViewController.m in Sources */,
 				D43B34DF1CF60770006F5B6B /* AppDelegate.m in Sources */,
 				D43B34DC1CF60770006F5B6B /* main.m in Sources */,
+				D4891A191D01C5AA00A51925 /* MyTableViewController.m in Sources */,
+				D426A2DF1D08B00C007CF3E0 /* Reachability.m in Sources */,
+				D4891A1C1D01C6C100A51925 /* MyTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,23 +473,34 @@
 		};
 		D43B34EF1CF60770006F5B6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E6A3CB02CE8366CB3469C7 /* Pods-ParkingOfTaiwan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ParkingOfTaiwan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LazyScream.ParkingOfTaiwan;
+				PRODUCT_BUNDLE_IDENTIFIER = LazyScream.MapHomeWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		D43B34F01CF60770006F5B6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5CA0E2F477B96CEC852D2A0 /* Pods-ParkingOfTaiwan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ParkingOfTaiwan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LazyScream.ParkingOfTaiwan;
+				PRODUCT_BUNDLE_IDENTIFIER = LazyScream.MapHomeWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -303,6 +523,7 @@
 				D43B34F01CF60770006F5B6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

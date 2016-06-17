@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="smx-Dp-cdR">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--台南停車資訊-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,140 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J1p-Cx-Qge">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ZEo-Z2-LAA"/>
+                                </connections>
+                            </mapView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="0Wc-5a-205">
+                                <rect key="frame" x="161" y="72" width="278" height="29"/>
+                                <segments>
+                                    <segment title="預設位置"/>
+                                    <segment title="定位您的位置"/>
+                                    <segment title="追蹤您的方向"/>
+                                </segments>
+                                <connections>
+                                    <action selector="locationAndTrack:" destination="BYZ-38-t0r" eventType="valueChanged" id="c2T-Fz-Vw3"/>
+                                </connections>
+                            </segmentedControl>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uxd-D6-U0r" customClass="GADBannerView">
+                                <rect key="frame" x="0.0" y="585" width="600" height="15"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.64617419634977891" green="1" blue="0.97201160275919585" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="uxd-D6-U0r" firstAttribute="leading" secondItem="J1p-Cx-Qge" secondAttribute="leading" id="1p8-8u-8gv"/>
+                            <constraint firstItem="uxd-D6-U0r" firstAttribute="trailing" secondItem="J1p-Cx-Qge" secondAttribute="trailing" id="70w-Cy-6Oc"/>
+                            <constraint firstItem="uxd-D6-U0r" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="8yR-J0-Kdm"/>
+                            <constraint firstItem="J1p-Cx-Qge" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="LMF-dv-cK4"/>
+                            <constraint firstItem="0Wc-5a-205" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="Sw4-XJ-hR6"/>
+                            <constraint firstItem="0Wc-5a-205" firstAttribute="centerX" secondItem="J1p-Cx-Qge" secondAttribute="centerX" id="bnV-Gq-7LJ"/>
+                            <constraint firstItem="J1p-Cx-Qge" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="d4t-w4-RJe"/>
+                            <constraint firstItem="0Wc-5a-205" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v7e-Hl-djZ"/>
+                            <constraint firstItem="J1p-Cx-Qge" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zRe-n8-f0i"/>
+                            <constraint firstItem="uxd-D6-U0r" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="585" id="ztN-1P-5Am"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="台南停車資訊" id="0iZ-GO-uct">
+                        <barButtonItem key="rightBarButtonItem" title="列表模式" id="imk-BZ-bSE">
+                            <color key="tintColor" red="0.0" green="0.78342305346805841" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="ListMode:" destination="BYZ-38-t0r" id="EjR-Zc-xq2"/>
+                                <segue destination="eX4-4g-1eu" kind="show" id="1AJ-yp-KDB"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="adBannerView" destination="uxd-D6-U0r" id="mUb-YJ-UcG"/>
+                        <outlet property="mainMapView" destination="J1p-Cx-Qge" id="9l4-Cu-7Sk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="124" y="270"/>
+        </scene>
+        <!--My Table View Controller-->
+        <scene sceneID="cd7-Nl-dsq">
+            <objects>
+                <tableViewController storyboardIdentifier="MyTableViewController" id="eX4-4g-1eu" customClass="MyTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="51" sectionHeaderHeight="28" sectionFooterHeight="28" id="q0D-YH-FST">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="51" id="9JP-fu-HoU" customClass="MyTableViewCell">
+                                <rect key="frame" x="0.0" y="92" width="600" height="51"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9JP-fu-HoU" id="OwO-EG-dJN">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="51"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="RIV-kV-6WQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="51"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l6t-aL-bya">
+                                            <rect key="frame" x="279" y="15" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="l6t-aL-bya" firstAttribute="centerX" secondItem="OwO-EG-dJN" secondAttribute="centerX" id="3Iw-yF-IJp"/>
+                                        <constraint firstItem="RIV-kV-6WQ" firstAttribute="centerX" secondItem="l6t-aL-bya" secondAttribute="centerX" id="W1M-3h-KO1"/>
+                                        <constraint firstItem="RIV-kV-6WQ" firstAttribute="top" secondItem="OwO-EG-dJN" secondAttribute="top" id="Y16-5S-Cnh"/>
+                                        <constraint firstItem="RIV-kV-6WQ" firstAttribute="leading" secondItem="OwO-EG-dJN" secondAttribute="leading" id="cwe-aT-JC6"/>
+                                        <constraint firstItem="l6t-aL-bya" firstAttribute="centerY" secondItem="OwO-EG-dJN" secondAttribute="centerY" id="mwE-fw-8s7"/>
+                                        <constraint firstItem="RIV-kV-6WQ" firstAttribute="centerY" secondItem="l6t-aL-bya" secondAttribute="centerY" id="qXI-fN-qGa"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <color key="tintColor" red="0.56301224191480315" green="1" blue="0.67007531447555846" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="ParkingName" destination="l6t-aL-bya" id="jr2-4G-Mmo"/>
+                                    <outlet property="cellBakcGround" destination="RIV-kV-6WQ" id="9Du-ap-pJX"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="eX4-4g-1eu" id="2qe-Uy-H7B"/>
+                            <outlet property="delegate" destination="eX4-4g-1eu" id="2Bi-vA-SPh"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="cfP-Ea-NkW"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q2n-6C-rFL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="n09-BP-0VQ">
+                    <connections>
+                        <outlet property="delegate" destination="eX4-4g-1eu" id="qdG-4k-cr3"/>
+                        <outlet property="searchContentsController" destination="eX4-4g-1eu" id="Pd4-6W-DGe"/>
+                        <outlet property="searchResultsDataSource" destination="eX4-4g-1eu" id="809-8f-Ijh"/>
+                        <outlet property="searchResultsDelegate" destination="eX4-4g-1eu" id="AV9-C7-y9m"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="784" y="201"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="xmY-ql-huK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="smx-Dp-cdR" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="q9v-pC-GuZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="20h-90-sTI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CyD-Pd-Qcp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-543" y="201"/>
         </scene>
     </scenes>
 </document>
