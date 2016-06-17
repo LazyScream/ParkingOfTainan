@@ -17,8 +17,8 @@
 //↓加入Delegate
 @interface ViewController ()<MKMapViewDelegate,CLLocationManagerDelegate,UIAlertViewDelegate,UIGestureRecognizerDelegate,UITableViewDelegate>
 {       //↓宣告變數
-    int a ;
-    int b ;
+    int aa ;
+    int bb ;
     BOOL firstLocationReceived;
     CLLocationManager * LocationManager;
     NSDictionary * onelist;
