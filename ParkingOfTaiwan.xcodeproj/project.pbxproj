@@ -8,21 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		34B740EC97B6AFEE0ACEB6E2 /* libPods-ParkingOfTaiwan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACCEB4823B8D1E4C74D69BB /* libPods-ParkingOfTaiwan.a */; };
-		D41D11C01D13BF45005F33FF /* Background 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11B11D13BF45005F33FF /* Background 1.png */; };
-		D41D11C11D13BF45005F33FF /* Background 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11B21D13BF45005F33FF /* Background 2.png */; };
-		D41D11C21D13BF45005F33FF /* Background 3.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11B31D13BF45005F33FF /* Background 3.png */; };
-		D41D11C31D13BF45005F33FF /* Background 4.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11B41D13BF45005F33FF /* Background 4.png */; };
-		D41D11C41D13BF45005F33FF /* Background 5.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11B51D13BF45005F33FF /* Background 5.png */; };
-		D41D11C51D13BF45005F33FF /* Background 6.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11B61D13BF45005F33FF /* Background 6.png */; };
-		D41D11C61D13BF45005F33FF /* Background 7.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11B71D13BF45005F33FF /* Background 7.png */; };
-		D41D11C71D13BF45005F33FF /* Background 8.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11B81D13BF45005F33FF /* Background 8.png */; };
-		D41D11C81D13BF45005F33FF /* Background 9.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11B91D13BF45005F33FF /* Background 9.png */; };
-		D41D11C91D13BF45005F33FF /* Background 10.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11BA1D13BF45005F33FF /* Background 10.png */; };
-		D41D11CA1D13BF45005F33FF /* Background 11.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11BB1D13BF45005F33FF /* Background 11.png */; };
-		D41D11CB1D13BF45005F33FF /* Background 12.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11BC1D13BF45005F33FF /* Background 12.png */; };
-		D41D11CC1D13BF45005F33FF /* Background 13.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11BD1D13BF45005F33FF /* Background 13.png */; };
-		D41D11CD1D13BF45005F33FF /* Background 14.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11BE1D13BF45005F33FF /* Background 14.png */; };
-		D41D11CE1D13BF45005F33FF /* Background 15.png in Resources */ = {isa = PBXBuildFile; fileRef = D41D11BF1D13BF45005F33FF /* Background 15.png */; };
 		D426A2DF1D08B00C007CF3E0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D426A2DE1D08B00C007CF3E0 /* Reachability.m */; };
 		D426A2E11D08B03F007CF3E0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D426A2E01D08B03F007CF3E0 /* SystemConfiguration.framework */; };
 		D43B34DC1CF60770006F5B6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D43B34DB1CF60770006F5B6B /* main.m */; };
@@ -33,30 +18,20 @@
 		D43B34EA1CF60770006F5B6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43B34E81CF60770006F5B6B /* LaunchScreen.storyboard */; };
 		D43B34F21CF60789006F5B6B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D43B34F11CF60789006F5B6B /* CoreLocation.framework */; };
 		D43B34F41CF6078F006F5B6B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D43B34F31CF6078F006F5B6B /* MapKit.framework */; };
+		D4547B741D1A22F000585C2F /* libLLSlideMenu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4547B731D1A22F000585C2F /* libLLSlideMenu.a */; };
+		D4547B781D1A2EE800585C2F /* Zero.png in Resources */ = {isa = PBXBuildFile; fileRef = D4547B771D1A2EE800585C2F /* Zero.png */; };
 		D471AEC31D12FA65007FFB51 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D471AEC21D12FA65007FFB51 /* AdSupport.framework */; };
 		D4891A191D01C5AA00A51925 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4891A181D01C5AA00A51925 /* MyTableViewController.m */; };
 		D4891A1C1D01C6C100A51925 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4891A1B1D01C6C100A51925 /* MyTableViewCell.m */; };
+		D4D72ED01D182A9F00CC0AA7 /* Fanal.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D72ECF1D182A9F00CC0AA7 /* Fanal.png */; };
+		D4D8233A1D16B3F800C2E3FD /* LocationPin.png in Resources */ = {isa = PBXBuildFile; fileRef = D4D823391D16B3F800C2E3FD /* LocationPin.png */; };
+		D4EBEF9B1D1A869600A2118C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EBEF9A1D1A869600A2118C /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		16E6A3CB02CE8366CB3469C7 /* Pods-ParkingOfTaiwan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkingOfTaiwan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParkingOfTaiwan/Pods-ParkingOfTaiwan.debug.xcconfig"; sourceTree = "<group>"; };
 		7ACCEB4823B8D1E4C74D69BB /* libPods-ParkingOfTaiwan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ParkingOfTaiwan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5CA0E2F477B96CEC852D2A0 /* Pods-ParkingOfTaiwan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkingOfTaiwan.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParkingOfTaiwan/Pods-ParkingOfTaiwan.release.xcconfig"; sourceTree = "<group>"; };
-		D41D11B11D13BF45005F33FF /* Background 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 1.png"; sourceTree = "<group>"; };
-		D41D11B21D13BF45005F33FF /* Background 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 2.png"; sourceTree = "<group>"; };
-		D41D11B31D13BF45005F33FF /* Background 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 3.png"; sourceTree = "<group>"; };
-		D41D11B41D13BF45005F33FF /* Background 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 4.png"; sourceTree = "<group>"; };
-		D41D11B51D13BF45005F33FF /* Background 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 5.png"; sourceTree = "<group>"; };
-		D41D11B61D13BF45005F33FF /* Background 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 6.png"; sourceTree = "<group>"; };
-		D41D11B71D13BF45005F33FF /* Background 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 7.png"; sourceTree = "<group>"; };
-		D41D11B81D13BF45005F33FF /* Background 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 8.png"; sourceTree = "<group>"; };
-		D41D11B91D13BF45005F33FF /* Background 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 9.png"; sourceTree = "<group>"; };
-		D41D11BA1D13BF45005F33FF /* Background 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 10.png"; sourceTree = "<group>"; };
-		D41D11BB1D13BF45005F33FF /* Background 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 11.png"; sourceTree = "<group>"; };
-		D41D11BC1D13BF45005F33FF /* Background 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 12.png"; sourceTree = "<group>"; };
-		D41D11BD1D13BF45005F33FF /* Background 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 13.png"; sourceTree = "<group>"; };
-		D41D11BE1D13BF45005F33FF /* Background 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 14.png"; sourceTree = "<group>"; };
-		D41D11BF1D13BF45005F33FF /* Background 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background 15.png"; sourceTree = "<group>"; };
 		D426A2DD1D08B00C007CF3E0 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		D426A2DE1D08B00C007CF3E0 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		D426A2E01D08B03F007CF3E0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -72,11 +47,16 @@
 		D43B34EB1CF60770006F5B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D43B34F11CF60789006F5B6B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		D43B34F31CF6078F006F5B6B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D4547B731D1A22F000585C2F /* libLLSlideMenu.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLLSlideMenu.a; path = "Pods/../build/Debug-iphoneos/LLSlideMenu/libLLSlideMenu.a"; sourceTree = "<group>"; };
+		D4547B771D1A2EE800585C2F /* Zero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zero.png; sourceTree = "<group>"; };
 		D471AEC21D12FA65007FFB51 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		D4891A171D01C5AA00A51925 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
 		D4891A181D01C5AA00A51925 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 		D4891A1A1D01C6C100A51925 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
 		D4891A1B1D01C6C100A51925 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		D4D72ECF1D182A9F00CC0AA7 /* Fanal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fanal.png; sourceTree = "<group>"; };
+		D4D823391D16B3F800C2E3FD /* LocationPin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LocationPin.png; sourceTree = "<group>"; };
+		D4EBEF9A1D1A869600A2118C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4EBEF9B1D1A869600A2118C /* MessageUI.framework in Frameworks */,
+				D4547B741D1A22F000585C2F /* libLLSlideMenu.a in Frameworks */,
 				D471AEC31D12FA65007FFB51 /* AdSupport.framework in Frameworks */,
 				D426A2E11D08B03F007CF3E0 /* SystemConfiguration.framework in Frameworks */,
 				D43B34F41CF6078F006F5B6B /* MapKit.framework in Frameworks */,
@@ -98,6 +80,8 @@
 		2C94057BB12938FF7D50612E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D4EBEF9A1D1A869600A2118C /* MessageUI.framework */,
+				D4547B731D1A22F000585C2F /* libLLSlideMenu.a */,
 				D471AEC21D12FA65007FFB51 /* AdSupport.framework */,
 				7ACCEB4823B8D1E4C74D69BB /* libPods-ParkingOfTaiwan.a */,
 			);
@@ -116,21 +100,9 @@
 		D41D11CF1D13BF50005F33FF /* CellPic */ = {
 			isa = PBXGroup;
 			children = (
-				D41D11B11D13BF45005F33FF /* Background 1.png */,
-				D41D11B21D13BF45005F33FF /* Background 2.png */,
-				D41D11B31D13BF45005F33FF /* Background 3.png */,
-				D41D11B41D13BF45005F33FF /* Background 4.png */,
-				D41D11B51D13BF45005F33FF /* Background 5.png */,
-				D41D11B61D13BF45005F33FF /* Background 6.png */,
-				D41D11B71D13BF45005F33FF /* Background 7.png */,
-				D41D11B81D13BF45005F33FF /* Background 8.png */,
-				D41D11B91D13BF45005F33FF /* Background 9.png */,
-				D41D11BA1D13BF45005F33FF /* Background 10.png */,
-				D41D11BB1D13BF45005F33FF /* Background 11.png */,
-				D41D11BC1D13BF45005F33FF /* Background 12.png */,
-				D41D11BD1D13BF45005F33FF /* Background 13.png */,
-				D41D11BE1D13BF45005F33FF /* Background 14.png */,
-				D41D11BF1D13BF45005F33FF /* Background 15.png */,
+				D4547B771D1A2EE800585C2F /* Zero.png */,
+				D4D72ECF1D182A9F00CC0AA7 /* Fanal.png */,
+				D4D823391D16B3F800C2E3FD /* LocationPin.png */,
 			);
 			name = CellPic;
 			sourceTree = "<group>";
@@ -253,7 +225,12 @@
 				TargetAttributes = {
 					D43B34D61CF60770006F5B6B = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = 6AZYKL3U8W;
+						DevelopmentTeam = 4899AYK7T7;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -280,24 +257,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D41D11CA1D13BF45005F33FF /* Background 11.png in Resources */,
-				D41D11C81D13BF45005F33FF /* Background 9.png in Resources */,
-				D41D11C51D13BF45005F33FF /* Background 6.png in Resources */,
-				D41D11C41D13BF45005F33FF /* Background 5.png in Resources */,
-				D41D11CE1D13BF45005F33FF /* Background 15.png in Resources */,
-				D41D11CD1D13BF45005F33FF /* Background 14.png in Resources */,
-				D41D11CB1D13BF45005F33FF /* Background 12.png in Resources */,
-				D41D11C31D13BF45005F33FF /* Background 4.png in Resources */,
-				D41D11C21D13BF45005F33FF /* Background 3.png in Resources */,
-				D41D11C71D13BF45005F33FF /* Background 8.png in Resources */,
-				D41D11CC1D13BF45005F33FF /* Background 13.png in Resources */,
-				D41D11C01D13BF45005F33FF /* Background 1.png in Resources */,
 				D43B34EA1CF60770006F5B6B /* LaunchScreen.storyboard in Resources */,
-				D41D11C91D13BF45005F33FF /* Background 10.png in Resources */,
 				D43B34E71CF60770006F5B6B /* Assets.xcassets in Resources */,
-				D41D11C11D13BF45005F33FF /* Background 2.png in Resources */,
-				D41D11C61D13BF45005F33FF /* Background 7.png in Resources */,
 				D43B34E51CF60770006F5B6B /* Main.storyboard in Resources */,
+				D4547B781D1A2EE800585C2F /* Zero.png in Resources */,
+				D4D8233A1D16B3F800C2E3FD /* LocationPin.png in Resources */,
+				D4D72ED01D182A9F00CC0AA7 /* Fanal.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,16 +440,22 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 16E6A3CB02CE8366CB3469C7 /* Pods-ParkingOfTaiwan.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ParkingOfTaiwan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LazyScream.MapHomeWork;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/LLSlideMenu",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LinYunShiuan.ParkingOfTainan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -492,15 +463,21 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C5CA0E2F477B96CEC852D2A0 /* Pods-ParkingOfTaiwan.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ParkingOfTaiwan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LazyScream.MapHomeWork;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/LLSlideMenu",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = LinYunShiuan.ParkingOfTainan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

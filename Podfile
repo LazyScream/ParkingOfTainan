@@ -8,5 +8,5 @@ target 'ParkingOfTaiwan' do
 
 pod 'Firebase/Core'
 pod 'Firebase/AdMob'
-
+pod 'LLSlideMenu'
 end

@@ -10,6 +10,5 @@
 
 @interface MyTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *ParkingName;
-@property (weak, nonatomic) IBOutlet UIImageView *cellBakcGround;
 
 @end

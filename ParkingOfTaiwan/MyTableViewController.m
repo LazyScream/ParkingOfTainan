@@ -18,12 +18,19 @@
 @property (nonatomic) NSMutableArray * nameResult;
 @property (nonatomic,retain) UISearchController *searchController;
 @property (nonatomic) NSMutableString * message;
+@property (nonatomic) NSString * parkingOfName;
 @end
 
 @implementation MyTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+//     [[UIBarButtonItem appearance] setBackButtonTitlePositionAdjustment:UIOffsetMake(0, -60) forBarMetrics:UIBarMetricsDefault];
+    
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
+    
+    
     self.searchController = [[UISearchController alloc] initWithSearchResultsController:nil];
     
     //_searchController.searchBar.barTintColor = [UIColor magentaColor];
@@ -52,6 +59,7 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+
 }
 
 
@@ -71,7 +79,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     MyTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-    cell.cellBakcGround.image = [UIImage imageNamed:[NSString stringWithFormat:@"Background %li.png", indexPath.row%15 + 1]];
+//    cell.cellBakcGround.image = [UIImage imageNamed:[NSString stringWithFormat:@"Background %li.png", indexPath.row%14 + 1]];
     cell.ParkingName.text = self.searchResult[indexPath.row];
             return cell;
 }
@@ -95,9 +103,9 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     NSUInteger row = [indexPath row];
-    NSString *parkingOfName = [self.searchResult objectAtIndex:row];
+    _parkingOfName = [self.searchResult objectAtIndex:row];
     NSInteger index;
-    index = [self.nameResult indexOfObject:parkingOfName];
+    index = [self.nameResult indexOfObject:_parkingOfName];
     NSString *parkingOfCarSpeac =[self.PKCarSpeac objectAtIndex:index];
     NSString *parkingOfMoney =[self.PKMoney objectAtIndex:index];
     NSString *parkingOfMotoSpeac=[self.PKMotoSpeac objectAtIndex:index];
@@ -105,7 +113,7 @@
     NSString *parkingOfLocationY=[self.PKLocationY objectAtIndex:index];
     
     self.message= [[NSMutableString alloc] initWithFormat:
-    @"%@\n價格:%@\n汽車位:%@\n機車位:%@",parkingOfName,parkingOfMoney,parkingOfCarSpeac,parkingOfMotoSpeac];
+    @"%@\n汽車位:%@\n機車位:%@\n%@",_parkingOfName,parkingOfCarSpeac,parkingOfMotoSpeac,parkingOfMoney];
     
     UIAlertController * alert =[UIAlertController alertControllerWithTitle:@"停車資訊" message:_message preferredStyle:UIAlertControllerStyleActionSheet];
     UIAlertAction * navigationBT =[UIAlertAction actionWithTitle:@"導航" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
@@ -114,6 +122,7 @@
         liAndlo.latitude = parkingOfLocationX.floatValue;
         liAndlo.longitude= parkingOfLocationY.floatValue;
         MKPlacemark * place = [[MKPlacemark alloc]initWithCoordinate:liAndlo addressDictionary:nil];
+        
         [self openMap:place];
         
     }];
@@ -134,6 +143,7 @@
 -(void)openMap:(CLPlacemark*)targetPlacemark{
     MKPlacemark * place = [[MKPlacemark alloc]initWithPlacemark:targetPlacemark];
     MKMapItem * mapItem = [[MKMapItem alloc]initWithPlacemark:place];
+    mapItem.name = self.parkingOfName;
     NSDictionary * options = @{
     MKLaunchOptionsDirectionsModeKey:MKLaunchOptionsDirectionsModeDriving
     };

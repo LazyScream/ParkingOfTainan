@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -16,12 +17,28 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fanal.png" translatesAutoresizingMaskIntoConstraints="NO" id="YA5-oi-MW7">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95294117647058818" green="0.31764705882352939" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="YA5-oi-MW7" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ED5-d4-U5Y"/>
+                            <constraint firstItem="YA5-oi-MW7" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="Fce-i4-JYS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YA5-oi-MW7" secondAttribute="trailing" constant="-20" id="NPl-HT-V2I"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="YA5-oi-MW7" secondAttribute="bottom" id="XEt-Kx-vN6"/>
+                            <constraint firstItem="YA5-oi-MW7" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="lin-GJ-xfG"/>
+                            <constraint firstItem="YA5-oi-MW7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="o1H-QN-P9N"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="69" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Fanal.png" width="800" height="800"/>
+    </resources>
 </document>
